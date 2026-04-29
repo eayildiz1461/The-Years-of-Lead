@@ -211,27 +211,43 @@ go-to: menu
 
 **ANAP** - *Anavatan Partisi* (Motherland Party) - a centrist to center-right neoliberal and liberal conservative party founded by the current President Turgut Özal in 1983. Historically a proponent of a modern understanding of islamic values and an advocate of free market economy, we’ve been known to cooperate and have cordial relations time and again. They are often associated with social stability, liberalization of society and established order of the post-junta era.
 
+{!<img src="img/anap_emblem.png" alt="ANAP Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
+
 Current relations: [+ z_relation : relationships +]
 
 **DSP** - *Demokratik Sol Parti* (Democratic Left Party) – a center-left kemalist social democratic party founded by the former leader of the CHP Bülent Ecevit and his wife Rahşan Ecevit in 1985, after the abolition of CHP following the 1980 coup. Popular among the intelligentsia and secular educated striata of society, and the main proponent of the “Left of Center” ideology founded by Ecevit himself during the 70’s, DSP envisions a left-kemalist vision of rulership, with social programs, secular institutes and a harsh stance towards separatism and reactionary forces.
+
+{!<img src="img/dsp_emblem.png" alt="DSP Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
 
 Current relations: [+ ddp_relation : relationships +]
 
 **DYP** - *Doğru Yol Partisi* (True Path Party) – a conservative center-right and populist party founded by the former prime minister and long-time experienced politician Suleyman Demirel in 1983. DYP is widely considered as the successor to both the Democrat Party (DP) of the 50’s and the Justice Party (AP) of the 70’s era. Similar to ANAP, they advocate a pro-european and neoliberal stance in politics and economy, with a wider and more accepting outlook towards nationalism.
 
+{!<img src="img/dyp_emblem.png" alt="DYP Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
+
 Current relations: [+ dvp_relation : relationships +]
 
 **MÇP** - *Milliyetçi Çalışma Partisi* (Nationalist Labor Party) – a right-wing nationalist and pro-islamic party with authoritarian and conservative elements, led by “Basbug” (meaning leader) Alparslan Turkes, who was a part of the 1960 coup and led the Nationalist Movement Party (MHP) during the 70’s era. Connected with the paramilitary group “Bozkurtlar” (Greywolves), they have been the main opponent and rival during the political scenery of the 60’s and 70’s era of the leftist forces of the Republic. Representing the Nine Light Doctrine based on ultranationalism shaped by Islam, they are mostly supported by the old middle class and rural population, and are traditionally known for their Anti-Kurdish and Anti-Minority stance.
 
+{!<img src="img/mçp_emblem.png" alt="MÇP Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
+
 Current relations: [+ dnvp_relation : relationships +]
 
 **TSP** - *Türkiye Sosyalist Partileri* (Socialist Parties of Turkey) – Following the Coup of 1980, the myriad of non-center left/socialist parties of the Republic have been in disarray and disorganization due to numerous instances of incarcerations, state interventions and general weariness seeped into the psyche of the people. While some parties such as Socialist Party (led by pro-maoist Doğu Perinçek) TKBP (United Communist Party of Turkey, after the unification of Communist Party of Turkey and Worker’s Party of Turkey) and HEP (Worker’s Labor Party, an offshoot of SHP after the revocation of 10 MPs after their vocal pro-kurdish stance) have risen, none have been able to properly organize and exist in the parliamentary sense, or become dominant. The times however, they are changing, and nobody can say for sure whether left as an entity can rise again, or fall into obscurity.
+
+{!<div style="display: flex; gap: 20px; margin-top: 10px;">
+<img src="img/sosyalistparti_emblem.png" alt="Sosyalistparti Emblem" style="max-width: 150px;"/>
+<img src="img/hep_emblem.png" alt="HEP Emblem" style="max-width: 150px;"/>
+<img src="img/tkbp_emblem.png" alt="TKBP Emblem" style="max-width: 150px;"/>
+</div>!}
 
 Current relations: [+ kpd_relation : relationships +]
 
 [? if sapd_formed: SAPD - Sozialistische Arbeiterpartei Deutschlands (Socialist Worker's Party of Germany) - a party recently formed in a split from the SPD, the SAPD is essentially an agglomeration of various left-wing splinter groups between the SPD and KPD. ?]
 
 **RP** - *Refah Partisi* - (Welfare Party) – an islamist political party founded in 1983 by the former leader of National Salvation Party (MSP) “Mücahit” (Mujahid) Necmettin Erbakan. Supporting the ideology of “Milli Görüş” (National Vision), they profess themselves as guardians of the downtrodden and the undesirables of the Republic – religious conservatives, unemployed and all those who have suffered the hardships of the Republic, whether be it due to economic reasons, immigration or political violence. Known to be in communication with fundamentalist religious organizations such as the Gulen and Naqshbandi movements, and the paramilitary organization IBDA-C (Great Eastern Islamic Raiders’ Front), they are perceived as one of the two single greatest threats to the secular unitary Republic on the political scene, especially by the Kemalist military.
+
+{!<img src="img/refah_emblem.png" alt="Refah Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
 
 Current relations: [+ nsdap_relation : relationships +]
 
