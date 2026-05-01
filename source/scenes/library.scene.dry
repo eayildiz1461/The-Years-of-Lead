@@ -346,33 +346,33 @@ Overall dissent: [+ dissent_percent : dissent +]
 
 A diverse coalition of socialist-leaning members, trade unionists and deputies mainly from the eastern and southeastern regions of the Republic. They believe in a pluralist, participatory and çivil society based democracy, while criticizing the traditional state-centric and elitist structure existing within the formation of the party. Favoring and aligned with the interests of the labor movement and radical redistributive policies, they are the most vocal faction regarding radical democratization, human rights and the recognition of the Kurdish reality.
 
-Strength: [+ left_strength : strength +]
+Strength: [+ socialist_left_strength : strength +]
 
-Dissent: [+ left_dissent : dissent +]
+Dissent: [+ socialist_left_dissent : dissent +]
 
 **Social Democrats**
 
 Representing the core administrative authority of the party, they focus on maintaining the party stability and legitimacy by positioning the party as the rightful heir to the legacy of CHP and the “Six Arrows”. Advocating a social market economy and a mixed economic model while meshing state-centric protections and social justice with growth, they hold the party as a broad umbrella for the Turkish left.
 
-Strength: [+ center_strength : strength +]
+Strength: [+ social_democrats_strength : strength +]
 
-Dissent: [+ center_dissent : dissent +]
+Dissent: [+ social_democrats_dissent : dissent +]
 
 **Labor Left**
 
 Following the 1989 Paris Kurdish Conference, several members from the Left Wing were expelled for attending without party permission, which led to further resignations and formation of the Peoples’ Labor Party (HEP). While many members are expected to run on the SHP lists, they remain distinct in their focus on Kurdish rights and cultural identity.
 
-Strength: [+ labor_strength : strength +]
+Strength: [+ labor_left_strength : strength +]
 
-Dissent: [+ labor_dissent : dissent +]
+Dissent: [+ labor_left_dissent : dissent +]
 
 **New Left**
 
 Led by Deniz Baykal, a prominent member of the pre-1980 CHP who served as the Minister of Finance and Energy, their primary goal is the reclamation of the identity and heritage of pre-1980 CHP. After the introduction of the New Left (Yeni Sol) platform in 1991 (which drew inspiration from the modern European and British Social Democracy), they emphasize a model designed to move away from rigid state-centric bureaucracy toward a more modern, growth oriented social democratic framework. Functioning as a “party within a party”, they frequently challenge Inonu’s leadership on a myriad of issues.
 
-Strength: [+ reformist_strength : strength +]
+Strength: [+ new_left_strength : strength +]
 
-Dissent: [+ reformist_dissent : dissent +]
+Dissent: [+ new_left_dissent : dissent +]
 
 @neorevisionists
 go-to: menu
