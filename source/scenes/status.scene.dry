@@ -20,7 +20,7 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
+SHP position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 [? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
 
 [? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
@@ -33,9 +33,9 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 President: [+ president +]
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+Prime Minister: [+ chancellor +] ([+ chancellor_party +])
 
-Reichstag composition:
+Parliament Composition:
 
 # 1928: 30, 1930: 25, 1932: 22
 {!<span class="tooltip-text" title="Social Democratic People's Party">SHP</span>!}: [+ shp_r +]%
@@ -76,7 +76,7 @@ Economic growth: [+ economic_growth_2 +]%
 = Inter-party Relations
 
 
-{!<span class="tooltip-text" title="Motherland Party">Z</span>!}: [+ z_relation : relationships +]
+{!<span class="tooltip-text" title="Motherland Party">ANAP</span>!}: [+ z_relation : relationships +]
 
 {!<span class="tooltip-text" title="Democratic Left Party">!}[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]{!</span>!}: [+ dsp_relation : relationships +]
 
@@ -178,7 +178,7 @@ Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Workers: SHP: [+ workers_shp_display +]%, ANAP: [+ workers_z_display +]%, TSP: [+ workers_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ workers_dsp_display +]%, DYP: [+ workers_dyp_display +]%; MÇP: [+ workers_dvnp_display +]%, Refah: [+ workers_refah_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Working Class: SHP: [+ workers_shp_display +]%, ANAP: [+ workers_z_display +]%, TSP: [+ workers_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ workers_dsp_display +]%, DYP: [+ workers_dyp_display +]%; MÇP: [+ workers_dvnp_display +]%, Refah: [+ workers_refah_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
 New Middle Class: SHP: [+ new_middle_shp_display +]%, ANAP: [+ new_middle_z_display +]%, TSP: [+ new_middle_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ new_middle_dsp_display +]%, DYP: [+ new_middle_dyp_display +]%; MÇP: [+ new_middle_dvnp_display +]%, Refah: [+ new_middle_refah_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
@@ -186,8 +186,8 @@ Old Middle Class: SHP: [+ old_middle_shp_display +]%, ANAP: [+ old_middle_z_disp
 
 Rural: SHP: [+ rural_shp_display +]%, ANAP: [+ rural_z_display +]%, TSP: [+ rural_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ rural_dsp_display +]%, DYP: [+ rural_dyp_display +]%; MÇP: [+ rural_dvnp_display +]%, Refah: [+ rural_refah_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: SHP: [+ unemployed_shp_display +]%, ANAP: [+ unemployed_z_display +]%, TSP: [+ unemployed_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ unemployed_dsp_display +]%, DYP: [+ unemployed_dyp_display +]%; MÇP: [+ unemployed_dvnp_display +]%, Refah: [+ unemployed_refah_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Alevi & Ethnic Minorities: SHP: [+ unemployed_shp_display +]%, ANAP: [+ unemployed_z_display +]%, TSP: [+ unemployed_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ unemployed_dsp_display +]%, DYP: [+ unemployed_dyp_display +]%; MÇP: [+ unemployed_dvnp_display +]%, Refah: [+ unemployed_refah_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Catholics: SHP: [+ catholics_shp_display +]%, ANAP: [+ catholics_z_display +]%, TSP: [+ catholics_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ catholics_dsp_display +]%, DYP: [+ catholics_dyp_display +]%; MÇP: [+ catholics_dvnp_display +]%, Refah: [+ catholics_refah_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Religious Conservatives: SHP: [+ catholics_shp_display +]%, ANAP: [+ catholics_z_display +]%, TSP: [+ catholics_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ catholics_dsp_display +]%, DYP: [+ catholics_dyp_display +]%; MÇP: [+ catholics_dvnp_display +]%, Refah: [+ catholics_refah_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 Support for the Republic: [+ pro_republic_disp +]%
