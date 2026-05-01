@@ -88,15 +88,15 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
 
-= Internal Factions of the SPD
+= Internal Factions of the SHP
 
-{!<span class="tooltip-text" title="The Left is interested in radical, transformative policies and cooperation with the KPD.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
+{!<span class="tooltip-text" title="The Socialist Left is interested in a pluralist and civil society based democracy, while criticizing the traditional state-centric and elitist structure existing within the party.">Socialist Left</span>!} strength: [+ socialist_left_strength : strength +], dissent: [+ socialist_left_dissent : dissent +]
 
-{!<span class="tooltip-text" title="The Center is a faction of Center Marxists, between reform and revolution.">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+{!<span class="tooltip-text" title="The core administrative authority of the party, Social Democrats focus on maintaining stability and the legacy of CHP and the Six Arrows.">Social Democrats</span>!} strength: [+ social_democrats_strength : strength +], dissent: [+ social_democrats_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Labor's goal is economic reform and benefits for organized workers.">Labor</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+{!<span class="tooltip-text" title="The members sympathetic to the People's Labor Party and Kurdish rights, they support the recognition of Kurdish identity, abolition of village rangers and removal of strict state interventions.">Labor Left</span>!} strength: [+ labor_left_strength : strength +], dissent: [+ labor_left_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
+{!<span class="tooltip-text" title="The New Left aim to reclaim the more traditional Kemalist identity of the old CHP, drawing inspiration from the New Left movement in Europe and Britain, which emphasizes a unitary and growth oriented social democratic framework">New Left</span>!} strength: [+ new_left_strength : strength +], dissent: [+ new_left_dissent : dissent +]
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
