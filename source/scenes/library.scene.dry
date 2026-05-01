@@ -202,6 +202,7 @@ Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, 
 
 Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
+
 @parties
 go-to: menu
 
@@ -292,25 +293,41 @@ go-to: menu
 
 **Paramilitary groups:**
 
-**Rangers**: Rangers, or more commonly known as Village Rangers, are a paramilitary group loosely under the command of the Gendarmerie General Forces, given mandate by the government. Their purpose is to act as local militia in towns, villages and rural areas, protecting against attacks and reprisals from insurgents and separatists such as Kurdistan Workers’ Party (PKK).
+**Rangers** 
+
+{!<div style="text-align: center;"><img src="img/korucular_emblem.png" alt="Korucular Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
+
+Rangers, or more commonly known as Village Rangers, are a paramilitary group loosely under the command of the Gendarmerie General Forces, given mandate by the government. Their purpose is to act as local militia in towns, villages and rural areas, protecting against attacks and reprisals from insurgents and separatists such as Kurdistan Workers’ Party (PKK).
 
 Strength: [+ rb_strength +] thousand
 
 Militarization: [+ rb_militancy : militancy +]
 
-**Revolutionary Left (DEV-SOL)**: The successors of People’s Revolutionary Front/Party of Turkey (THKP-C) and Revolutionary Path (DEV-YOL), it is a far-left paramilitary organization that has been at the forefront of radical leftist violence since 1978. Driven underground and hibernation after 1980 coup, they are commonly affiliated with the non-parliamentary and revolutionary fractions of the far-left.
+**Revolutionary Left (DEV-SOL)** 
+
+{!<div style="text-align: center;"><img src="img/devsol_emblem.png" alt="DEVSOL Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
+
+The successors of People’s Revolutionary Front/Party of Turkey (THKP-C) and Revolutionary Path (DEV-YOL), it is a far-left paramilitary organization that has been at the forefront of radical leftist violence since 1978. Driven underground and hibernation after 1980 coup, they are commonly affiliated with the non-parliamentary and revolutionary fractions of the far-left.
 
 Strength: [+ rfb_strength +] thousand
 
 Militarization: [+ rfb_militancy : militancy +]
 
-**Grey Wolves** *(Bozkurtlar)*: An ultra-nationalist organization with ties to the far-right Nationalist Movement Party (MHP). Mainly in rivalry with far-left paramilitaries such as DEV-SOL.
+**Grey Wolves (Bozkurtlar)**
+
+{!<div style="text-align: center;"><img src="img/bozkurtlar_emblem.png" alt="Bozkurtlar Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
+
+An ultra-nationalist organization with ties to the far-right Nationalist Movement Party (MHP). Mainly in rivalry with far-left paramilitaries such as DEV-SOL.
 
 Strength: [+ sh_strength +] thousand
 
 Militarization: [+ sh_militancy : militancy +]
 
-**Hezbollah (Party of God)**: An illegal radical Sunni-Islamist militant organization primarily active against the PKK. Not to be confused with the Shi’a Lebanese Hezbollah, they’re known for assasinations in broad daylight, often using a three-shot technique to the head, and targeting individuals the deem immoral (drinking alcohol, non-conforming to religious norms).
+**Hezbollah (Party of God)**
+
+{!<div style="text-align: center;"><img src="img/hezbollah_emblem.png" alt="Hezbollah Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
+
+An illegal radical Sunni-Islamist militant organization primarily active against the PKK. Not to be confused with the Shi’a Lebanese Hezbollah, they’re known for assasinations in broad daylight, often using a three-shot technique to the head, and targeting individuals the deem immoral (drinking alcohol, non-conforming to religious norms).
 
 Strength: [+ sa_strength +] thousand
 
@@ -318,11 +335,19 @@ Militarization: [+ sa_militancy : militancy +]
 
 **Official military/paramilitary groups:**
 
-**TSK**: [+ reichswehr_strength +] thousand troops. This is the Armed Forces of Turkey. Purporting themselves as the "unyielding guardians of the Republic and Atatürk", they have been the touchstone and safeguard of the Republic since its inception. After the coup in 1980, their influence and power has reached to unmitigated levels. The Kurdish incursion and the rise or *Irtica* (Reaction - by the religious fundamentalist movement) however, has strained their capabilities, and no one in the Republic can safely say if and when they will interfere with the political business of the day again.
+**TSK**: [+ reichswehr_strength +] thousand troops. 
+
+{!<div style="text-align: center;"><img src="img/tsk_emblem.png" alt="TSK Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
+
+This is the Armed Forces of Turkey. Purporting themselves as the "unyielding guardians of the Republic and Atatürk", they have been the touchstone and safeguard of the Republic since its inception. After the coup in 1980, their influence and power has reached to unmitigated levels. The Kurdish incursion and the rise or *Irtica* (Reaction - by the religious fundamentalist movement) however, has strained their capabilities, and no one in the Republic can safely say if and when they will interfere with the political business of the day again.
 
 Loyalty: [+ reichswehr_loyalty : loyalty +]
 
-**Gendarmerie**: [+ prussian_police_strength +] thousand members. A militarized law enforcement force with extensive responsibilities in rural, border, and security areas. It has historically operated as a paramilitary force—a military force with law enforcement duties among the civilian population.
+**Gendarmerie**: [+ prussian_police_strength +] thousand members. 
+
+{!<div style="text-align: center;"><img src="img/gendarmerie_emblem.png" alt="Gendarmerie Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
+
+A militarized law enforcement force with extensive responsibilities in rural, border, and security areas. It has historically operated as a paramilitary force—a military force with law enforcement duties among the civilian population.
 
 Loyalty: [+ prussian_police_loyalty : loyalty +]
 
