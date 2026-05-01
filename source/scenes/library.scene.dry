@@ -202,7 +202,6 @@ Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, 
 
 Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [+ ddp_name +]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
-
 @parties
 go-to: menu
 
@@ -265,8 +264,6 @@ Current relations: [+ dnvp_relation : relationships +]
 Following the Coup of 1980, the myriad of non-center left/socialist parties of the Republic have been in disarray and disorganization due to numerous instances of incarcerations, state interventions and general weariness seeped into the psyche of the people. While some parties such as Socialist Party (led by pro-maoist Doğu Perinçek) TKBP (United Communist Party of Turkey, after the unification of Communist Party of Turkey and Worker’s Party of Turkey) and HEP (Worker’s Labor Party, an offshoot of SHP after the revocation of 10 MPs after their vocal pro-kurdish stance) have risen, none have been able to properly organize and exist in the parliamentary sense, or become dominant. The times however, they are changing, and nobody can say for sure whether left as an entity can rise again, or fall into obscurity.
 
 Current relations: [+ kpd_relation : relationships +]
-
-[? if sapd_formed: SAPD - Sozialistische Arbeiterpartei Deutschlands (Socialist Worker's Party of Germany) - a party recently formed in a split from the SPD, the SAPD is essentially an agglomeration of various left-wing splinter groups between the SPD and KPD. ?]
 
 ---
 
