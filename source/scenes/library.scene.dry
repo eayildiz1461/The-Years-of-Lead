@@ -207,46 +207,51 @@ go-to: menu
 
 **SHP** - *Sosyaldemokrat Halkçı Parti* (Social Democratic People's Party)
 
-{!<img src="img/shp_emblem.png" alt="SHP Emblem" style="max-width: 200px; margin-top: 10px;"/>!}
+{!<div style="text-align: center;"><img src="img/shp_emblem.png" alt="SHP Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
 
 This is us. Founded in 1985 after the merge of Social Democracy Party (SODEP) and People’s Party (HP), we are arguably the sole representatives of democratic socialist values of the Republic, and the bulwark of modernity, international cooperation and secularity in these tumultuous times where reactionaries, separatists and regressive populists attempt to throw the Republic into disarray.
 
+---
 
 **ANAP** - *Anavatan Partisi* (Motherland Party)
 
-{!<img src="img/anap_emblem.png" alt="ANAP Emblem" style="max-width: 200px; margin-top: 10px;"/>!}
+{!<div style="text-align: center;"><img src="img/anap_emblem.png" alt="ANAP Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
 
 A centrist to center-right neoliberal and liberal conservative party founded by the current President Turgut Özal in 1983. Historically a proponent of a modern understanding of islamic values and an advocate of free market economy, we’ve been known to cooperate and have cordial relations time and again. They are often associated with social stability, liberalization of society and established order of the post-junta era.
 
 Current relations: [+ z_relation : relationships +]
 
+---
 
 **DSP** - *Demokratik Sol Parti* (Democratic Left Party)
 
-{!<img src="img/dsp_emblem.png" alt="DSP Emblem" style="max-width: 200px; margin-top: 10px;"/>!}
+{!<div style="text-align: center;"><img src="img/dsp_emblem.png" alt="DSP Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
 
 A center-left kemalist social democratic party founded by the former leader of the CHP Bülent Ecevit and his wife Rahşan Ecevit in 1985, after the abolition of CHP following the 1980 coup. Popular among the intelligentsia and secular educated striata of society, and the main proponent of the “Left of Center” ideology founded by Ecevit himself during the 70’s, DSP envisions a left-kemalist vision of rulership, with social programs, secular institutes and a harsh stance towards separatism and reactionary forces.
 
 Current relations: [+ ddp_relation : relationships +]
 
+---
 
 **DYP** - *Doğru Yol Partisi* (True Path Party)
 
-{!<img src="img/dyp_emblem.png" alt="DYP Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
+{!<div style="text-align: center;"><img src="img/dyp_emblem.png" alt="DYP Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
 
 A conservative center-right and populist party founded by the former prime minister and long-time experienced politician Suleyman Demirel in 1983. DYP is widely considered as the successor to both the Democrat Party (DP) of the 50’s and the Justice Party (AP) of the 70’s era. Similar to ANAP, they advocate a pro-european and neoliberal stance in politics and economy, with a wider and more accepting outlook towards nationalism.
 
 Current relations: [+ dvp_relation : relationships +]
 
+---
 
 **MÇP** - *Milliyetçi Çalışma Partisi* (Nationalist Labor Party)
 
-{!<img src="img/mçp_emblem.png" alt="MÇP Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
+{!<div style="text-align: center;"><img src="img/mçp_emblem.png" alt="MÇP Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
 
 A right-wing nationalist and pro-islamic party with authoritarian and conservative elements, led by “Basbug” (meaning leader) Alparslan Turkes, who was a part of the 1960 coup and led the Nationalist Movement Party (MHP) during the 70’s era. Connected with the paramilitary group “Bozkurtlar” (Greywolves), they have been the main opponent and rival during the political scenery of the 60’s and 70’s era of the leftist forces of the Republic. Representing the Nine Light Doctrine based on ultranationalism shaped by Islam, they are mostly supported by the old middle class and rural population, and are traditionally known for their Anti-Kurdish and Anti-Minority stance.
 
 Current relations: [+ dnvp_relation : relationships +]
 
+---
 
 **Türkiye Sosyalist Partileri** - *(Socialist Parties of Turkey)*
 
@@ -262,17 +267,20 @@ Current relations: [+ kpd_relation : relationships +]
 
 [? if sapd_formed: SAPD - Sozialistische Arbeiterpartei Deutschlands (Socialist Worker's Party of Germany) - a party recently formed in a split from the SPD, the SAPD is essentially an agglomeration of various left-wing splinter groups between the SPD and KPD. ?]
 
+---
+
 **RP** - *Refah Partisi* - (Welfare Party)
 
-
-{!<img src="img/refah_emblem.png" alt="Refah Emblem" style="max-width: 200px; margin-top: 10px;"/>!} 
+{!<div style="text-align: center;"><img src="img/refah_emblem.png" alt="Refah Emblem" style="max-width: 200px; margin-top: 10px;"/></div>!}
 
 An islamist political party founded in 1983 by the former leader of National Salvation Party (MSP) “Mücahit” (Mujahid) Necmettin Erbakan. Supporting the ideology of “Milli Görüş” (National Vision), they profess themselves as guardians of the downtrodden and the undesirables of the Republic – religious conservatives, unemployed and all those who have suffered the hardships of the Republic, whether be it due to economic reasons, immigration or political violence. Known to be in communication with fundamentalist religious organizations such as the Gulen and Naqshbandi movements, and the paramilitary organization IBDA-C (Great Eastern Islamic Raiders’ Front), they are perceived as one of the two single greatest threats to the secular unitary Republic on the political scene, especially by the Kemalist military.
 
 Current relations: [+ nsdap_relation : relationships +]
 
+---
 
 **Other parties** - After the lifting of the ban on the formation of political parties in 1983, a multitude of other parties have emerged. While most of them are local in activity and held in distrust by the general populace due to their inexperience and/or lack of organization, some, including the Democracy Party (DEP, not to be confused by the Democratic Party – DP), have slowly and steadily been becoming more and more predominant on both the municipal and parliamentary level, especially in the South-eastern and eastern parts of the Republic, where the Kurdish sentiment towards the Republic has been steadily declining after more than a decade of harsh stratocratic approach of the junta. Some are even rumoured to be in direct cooperation with PKK, however they continue to be supported by the local people, and even in the big cities such as Istanbul and Ankara.
+
 
 @paramilitaries
 on-arrival: {!
@@ -284,25 +292,25 @@ go-to: menu
 
 **Paramilitary groups:**
 
-**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, Z, and DDP, but primarily with the SPD. Historically, this has been an unarmed organization.
+**Rangers**: Rangers, or more commonly known as Village Rangers, are a paramilitary group loosely under the command of the Gendarmerie General Forces, given mandate by the government. Their purpose is to act as local militia in towns, villages and rural areas, protecting against attacks and reprisals from insurgents and separatists such as Kurdistan Workers’ Party (PKK).
 
 Strength: [+ rb_strength +] thousand
 
 Militarization: [+ rb_militancy : militancy +]
 
-**Rotfrontkämpferbund (RFB)**: The "Red Front Fighter's League" is associated with the KPD.
+**Revolutionary Left (DEV-SOL)**: The successors of People’s Revolutionary Front/Party of Turkey (THKP-C) and Revolutionary Path (DEV-YOL), it is a far-left paramilitary organization that has been at the forefront of radical leftist violence since 1978. Driven underground and hibernation after 1980 coup, they are commonly affiliated with the non-parliamentary and revolutionary fractions of the far-left.
 
 Strength: [+ rfb_strength +] thousand
 
 Militarization: [+ rfb_militancy : militancy +]
 
-**Der Stahlhelm**: A right-wing nationalist organization of primarily Great War veterans, descended from the *Freikorps* that emerged after the war. Associated with the DNVP.
+**Grey Wolves** *(Bozkurtlar)*: An ultra-nationalist organization with ties to the far-right Nationalist Movement Party (MHP). Mainly in rivalry with far-left paramilitaries such as DEV-SOL.
 
 Strength: [+ sh_strength +] thousand
 
 Militarization: [+ sh_militancy : militancy +]
 
-**Sturmabteilung (SA)**: This is the nazi paramilitary group.
+**Hezbollah (Party of God)**: An illegal radical Sunni-Islamist militant organization primarily active against the PKK. Not to be confused with the Shi’a Lebanese Hezbollah, they’re known for assasinations in broad daylight, often using a three-shot technique to the head, and targeting individuals the deem immoral (drinking alcohol, non-conforming to religious norms).
 
 Strength: [+ sa_strength +] thousand
 
@@ -310,20 +318,19 @@ Militarization: [+ sa_militancy : militancy +]
 
 **Official military/paramilitary groups:**
 
-**Reichswehr**: [+ reichswehr_strength +] thousand troops. This is Germany's military.
+**TSK**: [+ reichswehr_strength +] thousand troops. This is the Armed Forces of Turkey. Purporting themselves as the "unyielding guardians of the Republic and Atatürk", they have been the touchstone and safeguard of the Republic since its inception. After the coup in 1980, their influence and power has reached to unmitigated levels. The Kurdish incursion and the rise or *Irtica* (Reaction - by the religious fundamentalist movement) however, has strained their capabilities, and no one in the Republic can safely say if and when they will interfere with the political business of the day again.
 
 Loyalty: [+ reichswehr_loyalty : loyalty +]
 
-**Prussian police**: [+ prussian_police_strength +] thousand members.
+**Gendarmerie**: [+ prussian_police_strength +] thousand members. A militarized law enforcement force with extensive responsibilities in rural, border, and security areas. It has historically operated as a paramilitary force—a military force with law enforcement duties among the civilian population.
 
 Loyalty: [+ prussian_police_loyalty : loyalty +]
-
 
 
 @factions
 go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
 
-**Internal factions of the SPD**
+**Internal factions of the SHP**
 
 Overall dissent: [+ dissent_percent : dissent +]
 
