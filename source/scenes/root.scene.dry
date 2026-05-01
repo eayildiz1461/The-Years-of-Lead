@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Social Democracy: The Years of Lead - An Alternate History
 
 @start_menu_2
 
@@ -21,8 +21,8 @@ on-arrival: {!
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
-Q.year = 1928;
-Q.month = 1;
+Q.year = 1991;
+Q.month = 6;
 // how many actions have been taken this month?
 Q.month_actions = 0;
 
@@ -46,16 +46,16 @@ Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
 // factions
-Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
+Q.factions = ['socialist_left', 'social_democrats', 'labor_left', 'new_left', 'neorevisionist'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
-Q.labor_strength = 25;
-Q.labor_dissent = 5;
-Q.reformist_strength = 25;
-Q.reformist_dissent = 5;
+Q.socialist_left_strength = 15;
+Q.socialist_left_dissent = 20;
+Q.social_democrats_strength = 30;
+Q.social_democrats_dissent = 0;
+Q.labor_left_strength = 25;
+Q.labor_left_dissent = 5;
+Q.new_left_strength = 25;
+Q.new_left_dissent = 5;
 Q.neorevisionist_strength = 5;
 Q.neorevisionist_dissent = 10;
 
@@ -102,12 +102,12 @@ Q.moderate_plan_adopted = 0;
 
 // inter-party relations
 Q.z_relation = 50;
-Q.kpd_relation = 25;
-Q.ddp_relation = 60;
-Q.dvp_relation = 35;
-// DNVP and NSDAP are invariably hostile
-Q.DNVP_relation = 10;
-Q.NSDAP_relation = 0;
+Q.tsp_relation = 25;
+Q.dsp_relation = 60;
+Q.dyp_relation = 35;
+// MÇP and Refah are invariably hostile
+Q.mçp_relation = 10;
+Q.refah_relation = 0;
 
 Q.kpd_leader = "Thälmann";
 // alternative is the Conciliators as party leader
@@ -228,7 +228,7 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['shp', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['shp', 'tsp', 'z', 'dsp', 'dyp', 'mçp', 'refah', 'other'];
 
 // TODO: add 'sapd' later on
 Q.sapd_formed = 0;
@@ -236,57 +236,57 @@ Q.sapd_formed = 0;
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
 Q.workers_shp = 60;
-Q.workers_kpd = 20;
+Q.workers_tsp = 20;
 Q.workers_z = 5;
-Q.workers_ddp = 0;
-Q.workers_dvp = 0;
-Q.workers_dnvp = 5;
-Q.workers_nsdap = 0;
+Q.workers_dsp = 0;
+Q.workers_dyp = 0;
+Q.workers_mçp = 5;
+Q.workers_refah = 0;
 Q.workers_other = 10;
 
 Q.old_middle_shp = 5;
-Q.old_middle_kpd = 0;
+Q.old_middle_tsp = 0;
 Q.old_middle_z = 5;
-Q.old_middle_ddp= 10;
-Q.old_middle_dvp = 25;
-Q.old_middle_dnvp = 25;
-Q.old_middle_nsdap = 10;
+Q.old_middle_dsp= 10;
+Q.old_middle_dyp = 25;
+Q.old_middle_mçp = 25;
+Q.old_middle_refah = 10;
 Q.old_middle_other = 10;
 
 Q.new_middle_shp = 5;
-Q.new_middle_kpd = 1;
+Q.new_middle_tsp = 1;
 Q.new_middle_z = 10;
-Q.new_middle_ddp= 25;
-Q.new_middle_dvp = 25;
-Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 5;
+Q.new_middle_dsp= 25;
+Q.new_middle_dyp = 25;
+Q.new_middle_mçp = 10;
+Q.new_middle_refah = 5;
 Q.new_middle_other = 15;
 
 Q.rural_shp = 10;
-Q.rural_kpd = 0;
+Q.rural_tsp = 0;
 Q.rural_z = 5;
-Q.rural_ddp= 5;
-Q.rural_dvp = 15;
-Q.rural_dnvp = 45;
-Q.rural_nsdap = 5;
+Q.rural_dsp= 5;
+Q.rural_dyp = 15;
+Q.rural_mçp = 45;
+Q.rural_refah = 5;
 Q.rural_other = 10;
 
 Q.unemployed_shp = 25;
-Q.unemployed_kpd = 55;
+Q.unemployed_tsp = 55;
 Q.unemployed_z = 1;
-Q.unemployed_ddp = 0;
-Q.unemployed_dvp = 0;
-Q.unemployed_dnvp = 5;
-Q.unemployed_nsdap = 15;
+Q.unemployed_dsp = 0;
+Q.unemployed_dyp = 0;
+Q.unemployed_mçp = 5;
+Q.unemployed_refah = 15;
 Q.unemployed_other = 9;
 
 Q.catholics_shp = 15;
-Q.catholics_kpd = 2;
+Q.catholics_tsp = 2;
 Q.catholics_z = 50;
-Q.catholics_ddp = 0;
-Q.catholics_dvp = 5;
-Q.catholics_dnvp = 5;
-Q.catholics_nsdap = 0;
+Q.catholics_dsp = 0;
+Q.catholics_dyp = 5;
+Q.catholics_mçp = 5;
+Q.catholics_refah = 0;
 Q.catholics_other = 12;
 
 
@@ -297,22 +297,22 @@ Q.catholics_other = 12;
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
 Q.shp_r = 26;
-Q.kpd_r = 9;
+Q.tsp_r = 9;
 Q.z_r = 17;
-Q.ddp_r = 6;
-Q.dvp_r = 10;
-Q.dnvp_r = 20;
-Q.nsdap_r = 3;
+Q.dsp_r = 6;
+Q.dyp_r = 10;
+Q.mçp_r = 20;
+Q.refah_r = 3;
 Q.other_r = 9;
 
 // diff from prev
 Q.old_shp_r = 26;
-Q.old_kpd_r = 9;
+Q.old_tsp_r = 9;
 Q.old_z_r = 17;
-Q.old_ddp_r = 6;
-Q.old_dvp_r = 10;
-Q.old_dnvp_r = 20;
-Q.old_nsdap_r = 3;
+Q.old_dsp_r = 6;
+Q.old_dyp_r = 10;
+Q.old_mçp_r = 20;
+Q.old_refah_r = 3;
 Q.old_other_r = 9;
 
 // sapd isn't formed yet, but it may be formed
