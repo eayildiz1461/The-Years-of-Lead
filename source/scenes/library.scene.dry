@@ -198,9 +198,9 @@ Old Middle Class: SHP: [+ old_middle_shp_display +]%, ANAP: [+ old_middle_z_disp
 
 Rural: SHP: [+ rural_shp_display +]%, ANAP: [+ rural_z_display +]%, TSP: [+ rural_tsp_display +]%, [+ dsp_name +]: [+ rural_dsp_display +]%, DYP: [+ rural_dyp_display +]%; MÇP: [+ rural_dnvp_display +]%, Refah: [+ rural_refah_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: SHP: [+ unemployed_shp_display +]%, ANAP: [+ unemployed_z_display +]%, TSP: [+ unemployed_tsp_display +]%, [+ dsp_name +]: [+ unemployed_dsp_display +]%, DYP: [+ unemployed_dyp_display +]%; MÇP: [+ unemployed_dnvp_display +]%, Refah: [+ unemployed_refah_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Alevi & Ethnic Minorities: SHP: [+ unemployed_shp_display +]%, ANAP: [+ unemployed_z_display +]%, TSP: [+ unemployed_tsp_display +]%, [+ dsp_name +]: [+ unemployed_dsp_display +]%, DYP: [+ unemployed_dyp_display +]%; MÇP: [+ unemployed_dnvp_display +]%, Refah: [+ unemployed_refah_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Catholics: SHP: [+ catholics_shp_display +]%, ANAP: [+ catholics_z_display +]%, TSP: [+ catholics_tsp_display +]%, [+ dsp_name +]: [+ catholics_dsp_display +]%, DYP: [+ catholics_dyp_display +]%; MÇP: [+ catholics_dnvp_display +]%, Refah: [+ catholics_refah_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Religious Conservatives: SHP: [+ catholics_shp_display +]%, ANAP: [+ catholics_z_display +]%, TSP: [+ catholics_tsp_display +]%, [+ dsp_name +]: [+ catholics_dsp_display +]%, DYP: [+ catholics_dyp_display +]%; MÇP: [+ catholics_dnvp_display +]%, Refah: [+ catholics_refah_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 @parties
 go-to: menu
