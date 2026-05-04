@@ -38,20 +38,20 @@ Prime Minister: [+ chancellor +] ([+ chancellor_party +])
 Parliament Composition:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Social Democratic People's Party">SHP</span>!}: [+ shp_r +]%
+{!<span class="tooltip-text" title="Social Democratic People's Party" style="color: #E3000F;">SHP</span>!}: [+ shp_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Motherland Party">ANAP</span>!}: [+ z_r +]%
+{!<span class="tooltip-text" title="Motherland Party" style="color: #DCCA4A;">ANAP</span>!}: [+ z_r +]%
 # 1928: 10, 1930: 13
-{!<span class="tooltip-text" title="Socialist Parties of Turkey">TSP</span>!}: [+ tsp_r +]%
+{!<span class="tooltip-text" title="Socialist Parties of Turkey" style="color: #8B0000;">TSP</span>!}: [+ tsp_r +]%
 # 1928: 5, 1930: 4 (as DstP)
-{!<span class="tooltip-text" title="Democratic Left Party">!}[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]{!</span>!}: [+ dsp_r +]%
+{!<span class="tooltip-text" title="Democratic Left Party" style="color: #27B0F5;">!}[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]{!</span>!}: [+ dsp_r +]%
 # 1928: 9, 1930: 5
-{!<span class="tooltip-text" title="True Path Party">DYP</span>!}: [+ dyp_r +]%
+{!<span class="tooltip-text" title="True Path Party" style="color: #DE5D88;">DYP</span>!}: [+ dyp_r +]%
 # 1928: 14, 1930: 7
-{!<span class="tooltip-text" title="Nationalist Labor Party">MÇP</span>!}: [+ dvnp_r +]%
+{!<span class="tooltip-text" title="Nationalist Labor Party" style="color: #954B00;">MÇP</span>!}: [+ dvnp_r +]%
 # 1928: 3, 1930: 18
-{!<span class="tooltip-text" title="Welfare Party">Refah</span>!}: [+ refah_r +]%
+{!<span class="tooltip-text" title="Welfare Party" style="color: #21690A;">Refah</span>!}: [+ refah_r +]%
 # 1928: 9, 1930: 10
 Others: [+ other_r +]%
 
@@ -76,17 +76,17 @@ Economic growth: [+ economic_growth_2 +]%
 = Inter-party Relations
 
 
-{!<span class="tooltip-text" title="Motherland Party">ANAP</span>!}: [+ z_relation : relationships +]
+{!<span class="tooltip-text" title="Motherland Party" style="color: #DCCA4A;">ANAP</span>!}: [+ z_relation : relationships +]
 
-{!<span class="tooltip-text" title="Democratic Left Party">!}[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]{!</span>!}: [+ dsp_relation : relationships +]
+{!<span class="tooltip-text" title="Democratic Left Party" style="color: #27B0F5;">!}[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]{!</span>!}: [+ dsp_relation : relationships +]
 
-{!<span class="tooltip-text" title="True Path Party">DYP</span>!}: [+ dyp_relation : relationships +]
+{!<span class="tooltip-text" title="True Path Party" style="color: #DE5D88;">DYP</span>!}: [+ dyp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Socialist Parties of Turkey">TSP</span>!}: [+ tsp_relation : relationships +]
+{!<span class="tooltip-text" title="Socialist Parties of Turkey" style="color: #8B0000;">TSP</span>!}: [+ tsp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Nationalist Labor Party">MÇP</span>!}: [+ dvnp_relation : relationships +]
+{!<span class="tooltip-text" title="Nationalist Labor Party" style="color: #954B00;">MÇP</span>!}: [+ dvnp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Welfare Party">Refah</span>!}: [+ refah_relation : relationships +]
+{!<span class="tooltip-text" title="Welfare Party" style="color: #21690A;">Refah</span>!}: [+ refah_relation : relationships +]
 
 = Internal Factions of the SHP
 
