@@ -119,19 +119,19 @@ if (Q.sa_strength) {
 
 = Paramilitaries
 
-<span class="tooltip-text" title="Rangers are a paramilitary group loosely under the command of the Gendarmerie, tasked with the protection of villages, towns and rural areas against insurgencies." style="color: #E3000F;">**Rangers**</span> Strength: [+ rb_strength_2 +] thousand
+<span class="tooltip-text" title="Rangers are a paramilitary group loosely under the command of the Gendarmerie, tasked with the protection of villages, towns and rural areas against insurgencies." style="color: #E3000F;">**Rangers**</span> **Strength**: [+ rb_strength_2 +] thousand
 
 <span style="color: #E3000F;">**Rangers**</span> **Militarization**: [+ rb_militancy : militancy +]
 
-<span class="tooltip-text" title="Dev-Yol is a far-left militant organization commonly affiliated with the radical revolutionary fractions of the Republic." style="color: #8B0000;">**DEV**</span><span style="color: #000000;">**-**</span><span style="color: #E8ED0C;">**YOL**</span> Strength: [+ rfb_strength_2 +] thousand
+<span class="tooltip-text" title="Dev-Yol is a far-left militant organization commonly affiliated with the radical revolutionary fractions of the Republic." style="color: #8B0000;">**DEV**</span><span style="color: #000000;">**-**</span><span style="color: #E8ED0C;">**YOL**</span> **Strength**: [+ rfb_strength_2 +] thousand
 
 <span style="color: #8B0000;">**DEV**</span><span style="color: #000000;">**-**</span><span style="color: #E8ED0C;">**YOL**</span> **Militarization**: [+ rfb_militancy : militancy +]
 
-<span class="tooltip-text" title="An ultra-nationalist organization with ties to the far-right Nationalist Movement Party (MHP)." style="color: #085282;">**Grey**</span><span style="color: #954B00;">**wolves**</span> Strength: [+ sh_strength_2 +] thousand
+<span class="tooltip-text" title="An ultra-nationalist organization with ties to the far-right Nationalist Movement Party (MHP)." style="color: #085282;">**Grey**</span><span style="color: #954B00;">**wolves**</span> **Strength**: [+ sh_strength_2 +] thousand
 
 <span style="color: #085282;">**Grey**</span><span style="color: #954B00;">**wolves**</span> **Militarization**: [+ sh_militancy : militancy +]
 
-<span class="tooltip-text" title="Not to be confused with the Lebanese Shi'a Hezbollah, they are an illegal radical Sunni paramilitary organization." style="color: #21690A;">**Hezb**</span><span style="color: #C5CC1D;">**ollah**</span> Strength: [+ sa_strength_2 +] thousand
+<span class="tooltip-text" title="Not to be confused with the Lebanese Shi'a Hezbollah, they are an illegal radical Sunni paramilitary organization." style="color: #21690A;">**Hezb**</span><span style="color: #C5CC1D;">**ollah**</span> **Strength**: [+ sa_strength_2 +] thousand
 
 <span style="color: #21690A;">**Hezb**</span><span style="color: #C5CC1D;">**ollah**</span> **Militarization**: [+ sa_militancy : militancy +]
 
