@@ -158,36 +158,36 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 (if the election were to be held now):
 
-SHP: [+ shp_votes +]%
+<span style="color: #E3000F;">**SHP**</span>: [+ shp_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
-ANAP: [+ z_votes +]%
+<span style="color: #DCCA4A;">**ANAP**</span>: [+ z_votes +]%
 
-TSP: [+ tsp_votes +]%
+<span style="color: #8B0000;">**TSP**</span>: [+ tsp_votes +]%
 
-[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ dsp_votes +]%
+{!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ dsp_votes +]%
 
-DYP: [+ dyp_votes +]%
+<span style="color: #DE5D88;">**DYP**</span>: [+ dyp_votes +]%
 
-MÇP: [+ dvnp_votes +]%
+<span style="color: #954B00;">**MÇP**</span>: [+ dvnp_votes +]%
 
-Refah: [+ refah_votes +]%
+<span style="color: #21690A;">**Refah**</span>: [+ refah_votes +]%
 
-Others: [+ other_votes +]%
+<span style="color: #a0a0a0;">**Others**</span>: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Working Class: SHP: [+ workers_shp_display +]%, ANAP: [+ workers_z_display +]%, TSP: [+ workers_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ workers_dsp_display +]%, DYP: [+ workers_dyp_display +]%; MÇP: [+ workers_dvnp_display +]%, Refah: [+ workers_refah_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Working Class: <span style="color: #E3000F;">**SHP**</span>: [+ workers_shp_display +]%, <span style="color: #DCCA4A;">**ANAP**</span>: [+ workers_z_display +]%, <span style="color: #8B0000;">**TSP**</span>: [+ workers_tsp_display +]%, {!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ workers_dsp_display +]%, <span style="color: #DE5D88;">**DYP**</span>: [+ workers_dyp_display +]%; <span style="color: #954B00;">**MÇP**</span>: [+ workers_dvnp_display +]%, <span style="color: #21690A;">**Refah**</span>: [+ workers_refah_display +]%, <span style="color: #a0a0a0;">**Others**</span>: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
-New Middle Class: SHP: [+ new_middle_shp_display +]%, ANAP: [+ new_middle_z_display +]%, TSP: [+ new_middle_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ new_middle_dsp_display +]%, DYP: [+ new_middle_dyp_display +]%; MÇP: [+ new_middle_dvnp_display +]%, Refah: [+ new_middle_refah_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
+New Middle Class: <span style="color: #E3000F;">**SHP**</span>: [+ new_middle_shp_display +]%, <span style="color: #DCCA4A;">**ANAP**</span>: [+ new_middle_z_display +]%, <span style="color: #8B0000;">**TSP**</span>: [+ new_middle_tsp_display +]%, {!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ new_middle_dsp_display +]%, <span style="color: #DE5D88;">**DYP**</span>: [+ new_middle_dyp_display +]%; <span style="color: #954B00;">**MÇP**</span>: [+ new_middle_dvnp_display +]%, <span style="color: #21690A;">**Refah**</span>: [+ new_middle_refah_display +]%, <span style="color: #a0a0a0;">**Others**</span>: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
-Old Middle Class: SHP: [+ old_middle_shp_display +]%, ANAP: [+ old_middle_z_display +]%, TSP: [+ old_middle_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ old_middle_dsp_display +]%, DYP: [+ old_middle_dyp_display +]%; MÇP: [+ old_middle_dvnp_display +]%, Refah: [+ old_middle_refah_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
+Old Middle Class: <span style="color: #E3000F;">**SHP**</span>: [+ old_middle_shp_display +]%, <span style="color: #DCCA4A;">**ANAP**</span>: [+ old_middle_z_display +]%, <span style="color: #8B0000;">**TSP**</span>: [+ old_middle_tsp_display +]%, {!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ old_middle_dsp_display +]%, <span style="color: #DE5D88;">**DYP**</span>: [+ old_middle_dyp_display +]%; <span style="color: #954B00;">**MÇP**</span>: [+ old_middle_dvnp_display +]%, <span style="color: #21690A;">**Refah**</span>: [+ old_middle_refah_display +]%, <span style="color: #a0a0a0;">**Others**</span>: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
 
-Rural: SHP: [+ rural_shp_display +]%, ANAP: [+ rural_z_display +]%, TSP: [+ rural_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ rural_dsp_display +]%, DYP: [+ rural_dyp_display +]%; MÇP: [+ rural_dvnp_display +]%, Refah: [+ rural_refah_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
+Rural: <span style="color: #E3000F;">**SHP**</span>: [+ rural_shp_display +]%, <span style="color: #DCCA4A;">**ANAP**</span>: [+ rural_z_display +]%, <span style="color: #8B0000;">**TSP**</span>: [+ rural_tsp_display +]%, {!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ rural_dsp_display +]%, <span style="color: #DE5D88;">**DYP**</span>: [+ rural_dyp_display +]%; <span style="color: #954B00;">**MÇP**</span>: [+ rural_dvnp_display +]%, <span style="color: #21690A;">**Refah**</span>: [+ rural_refah_display +]%, <span style="color: #a0a0a0;">**Others**</span>: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Alevi & Ethnic Minorities: SHP: [+ unemployed_shp_display +]%, ANAP: [+ unemployed_z_display +]%, TSP: [+ unemployed_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ unemployed_dsp_display +]%, DYP: [+ unemployed_dyp_display +]%; MÇP: [+ unemployed_dvnp_display +]%, Refah: [+ unemployed_refah_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Alevi & Ethnic Minorities: <span style="color: #E3000F;">**SHP**</span>: [+ unemployed_shp_display +]%, <span style="color: #DCCA4A;">**ANAP**</span>: [+ unemployed_z_display +]%, <span style="color: #8B0000;">**TSP**</span>: [+ unemployed_tsp_display +]%, {!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ unemployed_dsp_display +]%, <span style="color: #DE5D88;">**DYP**</span>: [+ unemployed_dyp_display +]%; <span style="color: #954B00;">**MÇP**</span>: [+ unemployed_dvnp_display +]%, <span style="color: #21690A;">**Refah**</span>: [+ unemployed_refah_display +]%, <span style="color: #a0a0a0;">**Others**</span>: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Religious Conservatives: SHP: [+ catholics_shp_display +]%, ANAP: [+ catholics_z_display +]%, TSP: [+ catholics_tsp_display +]%, [? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]: [+ catholics_dsp_display +]%, DYP: [+ catholics_dyp_display +]%; MÇP: [+ catholics_dvnp_display +]%, Refah: [+ catholics_refah_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Religious Conservatives: <span style="color: #E3000F;">**SHP**</span>: [+ catholics_shp_display +]%, <span style="color: #DCCA4A;">**ANAP**</span>: [+ catholics_z_display +]%, <span style="color: #8B0000;">**TSP**</span>: [+ catholics_tsp_display +]%, {!<span style="color: #27B0F5;">!}**[? if not dsp_name: DSP?][? if dsp_name != 0 : [+ dsp_name +]?]**{!</span>!}: [+ catholics_dsp_display +]%, <span style="color: #DE5D88;">**DYP**</span>: [+ catholics_dyp_display +]%; <span style="color: #954B00;">**MÇP**</span>: [+ catholics_dvnp_display +]%, <span style="color: #21690A;">**Refah**</span>: [+ catholics_refah_display +]%, <span style="color: #a0a0a0;">**Others**</span>: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 Support for the Republic: [+ pro_republic_disp +]%
