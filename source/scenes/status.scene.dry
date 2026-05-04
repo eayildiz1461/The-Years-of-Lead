@@ -20,7 +20,7 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-SHP position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
+<span style="color: #E3000F;">**SHP**</span> position: [? if spd_toleration : toleration ?][? if spd_in_government : in government - ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 [? if in_weimar_coalition and spd_in_government: Weimar Coalition ?][? if in_grand_coalition and spd_in_government: Grand Coalition ?][? if in_popular_front and spd_in_government: Popular Front ?][? if in_left_front and spd_in_government: Left Front ?][? if in_spd_majority and spd_in_government: SPD majority ?][? if in_minority_government and spd_in_government: minority government ?][? if in_emergency_government and spd_in_government: emergency government ?]
 
 [? if spd_in_government and not in_spd_majority and not in_left_front : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
@@ -121,19 +121,19 @@ if (Q.sa_strength) {
 
 {!<span class="tooltip-text" title="Rangers are a paramilitary group loosely under the command of the Gendarmerie, tasked with the protection of villages, towns and rural areas against insurgencies.">Rangers</span>!} Strength: [+ rb_strength_2 +] thousand
 
-Rangers Militarization: [+ rb_militancy : militancy +]
+<span style="color: #8B0000;">**Ran**</span><span style="color: #DECDCA;">**gers**</span> Militarization: [+ rb_militancy : militancy +]
 
 {!<span class="tooltip-text" title="Dev-Yol is a far-left militant organization commonly affiliated with the radical revolutionary fractions of the Republic.">DEV-YOL</span>!} Strength: [+ rfb_strength_2 +] thousand
 
-DEV-YOL Militarization: [+ rfb_militancy : militancy +]
+<span style="color: #FF1405;">**DEV**</span><span style="color: #000000;">**-**</span><span style="color: #E8ED0C;">**YOL**</span> Militarization: [+ rfb_militancy : militancy +]
 
 {!<span class="tooltip-text" title="An ultra-nationalist organization with ties to the far-right Nationalist Movement Party (MHP).">Greywolves</span>!} Strength: [+ sh_strength_2 +] thousand
 
-Greywolves Militarization: [+ sh_militancy : militancy +]
+<span style="color: #085282;">**Grey**</span><span style="color: #451D01;">**wolves**</span> Militarization: [+ sh_militancy : militancy +]
 
 {!<span class="tooltip-text" title="Not to be confused with the Lebanese Shi'a Hezbollah, they are an illegal radical Sunni paramilitary organization.">Hezbollah</span>!} Strength: [+ sa_strength_2 +] thousand
 
-Hezbollah Militarization: [+ sa_militancy : militancy +]
+<span style="color: #21690A;">**Hezb**</span><span style="color: #750A6F;">**ollah**</span> Militarization: [+ sa_militancy : militancy +]
 
 = Official military/paramilitaries
 
