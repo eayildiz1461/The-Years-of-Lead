@@ -266,62 +266,57 @@ if (Q.tsp_r >= Q.shp_r && Q.tsp_r >= Q.refah_r) {
 
 // coalitions
 Q.anasol_coalition = Q.shp_r + Q.dsp_r + Q.anap_r;
-Q.grand_coalition = Q.shp_r + Q.dsp_r + Q.anap_r + Q.dyp_r;
-Q.anasold_coalition = Q.dsp_r + Q.anap_r + Q.dyp_r + Q.other_r;
-Q.refah_yol_coalition = Q.dyp_r + Q.refah_r + Q.other_r;
-Q.anayol_coalition = Q.anap_r + Q.dyp_r + Q.other_r;
-Q.milli_anayol_coalition = Q.anap_r + Q.dyp_r + Q.other_r + Q.mcp_r;
+Q.anasold_coalition = Q.dsp_r + Q.anap_r + Q.dyp_r;
+Q.refah_yol_coalition = Q.dyp_r + Q.refah_r;
+Q.anayol_coalition = Q.anap_r + Q.dyp_r;
+Q.milli_anayol_coalition = Q.anap_r + Q.dyp_r + Q.mcp_r;
 Q.milli_refah_coalition = Q.mcp_r + Q.refah_r;
 Q.halk_cephe_coalition = Q.shp_r + Q.dsp_r + Q.other_r;
 Q.sol_cephe_coalition = Q.shp_r + Q.tsp_r + Q.dsp_r + Q.other_r;
 Q.refah_sol_coalition = Q.shp_r + Q.dsp_r + Q.refah_r;
-// aka everyone except nazi, kpd, dnvp
-Q.neo_weimar_coalition = Q.shp_r + Q.dsp_r + Q.anap_r + Q.dyp_r + Q.other_r;
 !}
 
 The electoral system is essentially proportional, with the proportion of Parliament seats roughly equal to the proportion of votes.
  
 **Election results:**
 
-# 1991: 30, 1995: 25, 1999: 22
+# 1991: 20, 1995: 10, 1999: 8
 <span style="color: #E3000F;">**SHP**</span>: [+ shp_r +]
 
-# 1991: 15, 1995: 15, 1999: 
+# 1991: 24, 1995: 19, 1999: 13
 <span style="color: #DCCA4A;">**ANAP**</span>: [+ anap_r +]
 
-# 1991: 10, 1995: 13
+# 1991: 1, 1995: 4, 1999: 5
 <span style="color: #8B0000;">**TSP**</span>: [+ tsp_r +]
 
-# 1991: 5, 1995: 4 (as DstP)
+# 1991: 10, 1995: 14, 1999: 22
 <span style="color: #27B0F5;">**DSP**</span>: [+ dsp_r +]
 
-# 1991: 9, 1995: 5
+# 1991: 27, 1995: 20, 1999: 12
 <span style="color: #DE5D88;">**DYP**</span>: [+ dyp_r +]
 
-# 1991: 14, 1995: 7
+# 1991: 1, 1995: 8, 1999: 18
 <span style="color: #954B00;">**MÇP**</span>: [+ mcp_r +]
 
-# 1991: 3, 1995: 18
+# 1991: 16, 1995: 21, 1999: 15
 <span style="color: #21690A;">**Refah**</span>: [+ refah_r +]
 
-# 1928: 9, 1930: 10
+# 1928: 1, 1930: 4, 1999: 7
 <span style="color: #a0a0a0;">**Others**</span>: [+ other_r +]
 
 **Potential coalitions:**
 
 ANASOL Coalition (SHP + ANAP + DSP): [+ anasol_coalition +]
 
-ANASOL-D Coalition (ANAP + DSP + DYP + Others): [+ anasold_coalition +]
+ANASOL-D Coalition (ANAP + DSP + DYP): [+ anasold_coalition +]
 
-ANAYOL Coalition (ANAP + DYP + Others): [+ anayol_coalition +]
+ANAYOL Coalition (ANAP + DYP): [+ anayol_coalition +]
 
-Milli ANAYOL Coalition (ANAP + DYP + Others + MCP): [+ milli_anayol_coalition +]
+Milli ANAYOL Coalition (ANAP + DYP + MCP): [+ milli_anayol_coalition +]
 
 Milli Refah Coalition (MCP + Refah): [+ milli_refah_coalition +]
 
-Refah-YOL Coalition (DYP + Refah + Others): [+ refah_yol_coalition +]
-
-Grand Coalition (SHP + ANAP + DSP + DYP): [+ grand_coalition +]
+Refah-YOL Coalition (DYP + Refah): [+ refah_yol_coalition +]
 
 Halk-Cephe Coalition (SHP + DSP + Others): [+ halk_cephe_coalition +]
 
