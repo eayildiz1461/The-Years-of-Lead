@@ -537,7 +537,7 @@ table {
 }
 
 /* Styles for parties */
-.seat.kpd {
+.seat.tsp {
     fill: #8B0000;
 }
 .seat.shp {
@@ -545,26 +545,23 @@ table {
     stroke: var(--border-color);
     stroke-width: 1.5px;
 }
-.seat.ddp {
+.seat.dsp {
+    fill: #27B0F5;
+}
+.seat.anap {
     fill: #DCCA4A;
 }
-.seat.z {
-    fill: #000;
-}
-.seat.bvp {
-    fill: #69A2BE;
-}
-.seat.dvp {
-    fill: #D5AC27;
+.seat.dyp {
+    fill: #DE5D88;
 }
 .seat.other {
-    fill: #909090;
+    fill: #a0a0a0;
 }
-.seat.dnvp {
-    fill: #3F7BC1;
-}
-.seat.nsdap {
+.seat.mcp {
     fill: #954B00;
+}
+.seat.refah {
+    fill: #21690A;
 }
 .seat.sapd {
     fill: #C40000;
