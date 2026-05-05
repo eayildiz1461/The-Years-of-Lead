@@ -265,55 +265,67 @@ if (Q.tsp_r >= Q.shp_r && Q.tsp_r >= Q.refah_r) {
 }
 
 // coalitions
-Q.weimar_coalition = Q.shp_r + Q.dsp_r + Q.anap_r;
+Q.anasol_coalition = Q.shp_r + Q.dsp_r + Q.anap_r;
 Q.grand_coalition = Q.shp_r + Q.dsp_r + Q.anap_r + Q.dyp_r;
-Q.bourgeois_coalition = Q.dsp_r + Q.anap_r + Q.dyp_r + Q.other_r;
-Q.center_right_coalition = Q.anap_r + Q.dsp_r + Q.dyp_r + Q.other_r + Q.mcp_r;
-Q.right_coalition = Q.anap_r + Q.dyp_r + Q.other_r + Q.mcp_r;
-Q.far_right_coalition = Q.mcp_r + Q.refah_r;
-Q.left_coalition = Q.shp_r + Q.tsp_r;
-// this is an absurd concept lol
-Q.united_front_coalition = Q.shp_r + Q.tsp_r + Q.anap_r + Q.dsp_r;
-Q.anti_democratic_coalition = Q.tsp_r + Q.refah_r;
+Q.anasold_coalition = Q.dsp_r + Q.anap_r + Q.dyp_r + Q.other_r;
+Q.refah_yol_coalition = Q.dyp_r + Q.refah_r + Q.other_r;
+Q.anayol_coalition = Q.anap_r + Q.dyp_r + Q.other_r;
+Q.milli_anayol_coalition = Q.anap_r + Q.dyp_r + Q.other_r + Q.mcp_r;
+Q.milli_refah_coalition = Q.mcp_r + Q.refah_r;
+Q.halk_cephe_coalition = Q.shp_r + Q.dsp_r + Q.other_r;
+Q.sol_cephe_coalition = Q.shp_r + Q.tsp_r + Q.dsp_r + Q.other_r;
+Q.refah_sol_coalition = Q.shp_r + Q.dsp_r + Q.refah_r;
 // aka everyone except nazi, kpd, dnvp
 Q.neo_weimar_coalition = Q.shp_r + Q.dsp_r + Q.anap_r + Q.dyp_r + Q.other_r;
 !}
 
-The electoral system is essentially proportional, with the proportion of Reichstag seats roughly equal to the proportion of votes.
+The electoral system is essentially proportional, with the proportion of Parliament seats roughly equal to the proportion of votes.
  
 **Election results:**
 
 # 1991: 30, 1995: 25, 1999: 22
-SHP: [+ shp_r +]
+<span style="color: #E3000F;">**SHP**</span>: [+ shp_r +]
 
 # 1991: 15, 1995: 15, 1999: 
-ANAP: [+ anap_r +]
+<span style="color: #DCCA4A;">**ANAP**</span>: [+ anap_r +]
 
 # 1991: 10, 1995: 13
-TSP: [+ tsp_r +]
+<span style="color: #8B0000;">**TSP**</span>: [+ tsp_r +]
 
 # 1991: 5, 1995: 4 (as DstP)
-DSP: [+ dsp_r +]
+<span style="color: #27B0F5;">**DSP**</span>: [+ dsp_r +]
 
 # 1991: 9, 1995: 5
-DYP: [+ dyp_r +]
+<span style="color: #DE5D88;">**DYP**</span>: [+ dyp_r +]
 
 # 1991: 14, 1995: 7
-MÇP: [+ mcp_r +]
+<span style="color: #954B00;">**MÇP**</span>: [+ mcp_r +]
 
 # 1991: 3, 1995: 18
-Refah: [+ refah_r +]
+<span style="color: #21690A;">**Refah**</span>: [+ refah_r +]
 
 # 1928: 9, 1930: 10
-Other: [+ other_r +]
+<span style="color: #a0a0a0;">**Others**</span>: [+ other_r +]
 
 **Potential coalitions:**
 
-ANA-SOL Coalition (SHP + ANAP + DSP): [+ weimar_coalition +]
+ANASOL Coalition (SHP + ANAP + DSP): [+ anasol_coalition +]
+
+ANASOL-D Coalition (ANAP + DSP + DYP + Others): [+ anasold_coalition +]
+
+ANAYOL Coalition (ANAP + DYP + Others): [+ anayol_coalition +]
+
+Milli ANAYOL Coalition (ANAP + DYP + Others + MCP): [+ milli_anayol_coalition +]
+
+Milli Refah Coalition (MCP + Refah): [+ milli_refah_coalition +]
+
+Refah-YOL Coalition (DYP + Refah + Others): [+ refah_yol_coalition +]
 
 Grand Coalition (SHP + ANAP + DSP + DYP): [+ grand_coalition +]
 
-ANAYOL-SOL Coalition (ANAP + DSP + DYP + Others): [+ bourgeois_coalition +]
+Halk-Cephe Coalition (SHP + DSP + Others): [+ halk_cephe_coalition +]
 
-Milli ANAYOL Coalition (ANAP + DYP + Others + MCP): [+ right_coalition +]
+Sol-Cephe Coalition (SHP + TSP + DSP + Others): [+ sol_cephe_coalition +]
+
+Refah-SOL Coalition (SHP + DSP + Refah): [+ refah_sol_cephe_coalition +]
 
